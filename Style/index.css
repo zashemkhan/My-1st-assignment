@@ -6,6 +6,11 @@
   font-style: normal;
 }
 
+
+
+body{
+  background-color: rgba(245, 248, 255, 1);
+}
 /* hero section background */
 .container{
     background-image: url("./Assets/Hero-bg.png");
@@ -32,19 +37,19 @@ nav h2{
 }
 /* primary button style */
 .btn-primary{
+  font-family: "Raleway";
   background-color: #4E47FF;
   color: #FFFFFF;
-  font-family: "Raleway";
   padding: 12px 36px;
-  font-family: "Raleway";
   font-weight: bold;
   border-radius: 10px;
 }
 /* hero banner text */
 .banner-text{
+  font-family: "Raleway";
   font-size: 65px;
   font-weight: bold;
-  font-family: "Raleway";
+  
   color: #252432;
   margin-top:185px ;
 }
@@ -87,3 +92,43 @@ nav h2{
   align-items: center;
   
 }
+/* data-section */
+.section{
+  text-align: center;
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 50px 20px;
+  margin: 116px 159px 137px 159px;
+  border-radius: 24px;
+}
+.section h3{
+  font-family: "Raleway";
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 0px;
+}
+.data h2{
+  font-family: sans-serif;
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.data p{
+  font-family: sans-serif;
+  color: #1b1b1b9a;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.section-title{
+  text-align: center;
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+
