@@ -147,7 +147,8 @@ nav .logo{
     align-items: center;
     justify-content: space-around;
     background-color: #F5F8FF;
-    padding: 200px 100px;
+    padding: 71px 0px;
+    margin-top: 105px;
 }
 .contact-header h2{
     font-size: 97px;
@@ -208,7 +209,6 @@ li:hover{
  .cta-title{
   font-family: "Raleway", sans-serif;
   margin-bottom: 17px;
-  font-family: rale;
  }
  .cta-description{
   margin-bottom: 30px;
@@ -218,5 +218,29 @@ li:hover{
  .cta-img{
   border-radius: 48px;
   max-width: 100%;
-
  }
+ /* footer section */
+.footer-content{
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 30px 20px;
+}
+.footer-logo{
+  text-decoration: none;
+  font-size:100px ;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color:#4E47FF ;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: #8987A1 ;
+  
+}
+.footer-nav{
+  justify-content: center;
+ 
+}
